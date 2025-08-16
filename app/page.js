@@ -1,12 +1,10 @@
-import Image from "next/image";
-import Navigation from "./components/navigation/Navigation";
+import Navbar from "./ui/navigation/Nav";
 
 export default function Home() {
   return (
     <>
-      <div className="navigation fixed top-0 left-0 right-0 z-50">
-        <Navigation />
-      </div>
+      <Navbar />
+      <div className="navigation fixed top-0 left-0 right-0 z-50"></div>
       <div className="Area h-screen Area w-full ">
         <div className=" h-full relative overflow-hidden flex items-center justify-center">
           <div className=" absolute left-0 w-5/6 ">
