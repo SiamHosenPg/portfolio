@@ -1,5 +1,6 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Nav from "./ui/navigation/Nav";
 
 const poppins = Poppins({
   variable: "--font-poppins-sans",
@@ -15,7 +16,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className}  antialiased`}>{children}</body>
+      <body className={`  ${poppins.className}    antialiased`}>
+        <div className="flex w-full h-screen  ">
+          <div className="w-[380px] shrink-0">
+            <Nav />
+          </div>
+          <div className="w-full ">{children}</div>
+        </div>
+      </body>
     </html>
   );
 }

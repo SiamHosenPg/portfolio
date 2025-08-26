@@ -1,0 +1,65 @@
+export const information = {
+  name: "Shium Hossen",
+  image: "/image/hero.jpg",
+  username: "shiumhossen",
+  bio: "Passionate Web Developer | React Developer | Building modern, user-friendly web applications.",
+  about:
+    "I am a self-taught web developer specializing in React.js. I love solving problems, creating smooth user experiences, and learning new technologies every day.",
+  work: {
+    title: "Web Developer",
+    specialization: "React Developer",
+    company: "Freelancer / Remote",
+    experience: "2+ years",
+  },
+  dateOfBirth: "2000-05-12",
+  age: 25,
+  gender: "Male",
+  nationality: "Bangladeshi",
+  email: "siamhosenpg@gmail.com",
+  mobile: "+8801XXXXXXXXX",
+  address: {
+    city: "Dhaka",
+    country: "Bangladesh",
+    postalCode: "1207",
+  },
+  socialLinks: [
+    { platform: "GitHub", url: "https://github.com/shiumhossen" },
+    { platform: "LinkedIn", url: "https://linkedin.com/in/shiumhossen" },
+    { platform: "Twitter", url: "https://twitter.com/shiumhossen" },
+    { platform: "Facebook", url: "https://facebook.com/shiumhossen" },
+  ],
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "REST API",
+    "Tailwind CSS",
+    "Git & GitHub",
+  ],
+  languages: ["Bangla", "English"],
+  hobbies: ["Coding", "Reading Tech Blogs", "Gaming", "Traveling"],
+  projects: [
+    {
+      name: "Social Media App",
+      techStack: ["MERN", "Tailwind CSS", "JWT"],
+      description: "A social networking platform with personalized news feed.",
+    },
+    {
+      name: "Portfolio Website",
+      techStack: ["Next.js", "Framer Motion"],
+      description:
+        "Personal portfolio site with animations and SEO optimization.",
+    },
+  ],
+  certifications: [
+    { name: "JavaScript Mastery", provider: "Udemy" },
+    { name: "React Frontend Developer", provider: "Coursera" },
+  ],
+  createdAt: new Date().toISOString(),
+  updatedAt: new Date().toISOString(),
+};
